@@ -33,20 +33,26 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"></a>
+            <a class="nav-link" href="#">Melihat Wisata</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#">Paket Wisata</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sewa Kendaraan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Berita</a>
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          
+          <button class="btn btn-outline-success m-2" type="submit">Profile</button>
         </form>
       </div>
     </div>
   </nav>
-</header>
+</header> 
 
 <main>
 
