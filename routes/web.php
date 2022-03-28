@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('Home');
 });
+Route::get('/berita', function () {
+    return view('Berita');
+});

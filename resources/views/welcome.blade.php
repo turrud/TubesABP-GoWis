@@ -98,7 +98,7 @@
                 <a class="nav-link" href="#" target="_blank">Sewa Kendaraan</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" target="_blank">Berita</a>
+                <a class="nav-link" href="/berita" target="_blank">Berita</a>
             </li>
             </ul>
         </div>
