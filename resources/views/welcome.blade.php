@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Go Wiss | Welcome</title>
+    <title>Go Wis | Welcome</title>
 
     <!-- Font Awesome -->
     <link
@@ -21,68 +21,14 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
     rel="stylesheet"
     />
+    <!-- Custom CSS -->
+    {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
+    
 </head>
 <body>
         <!--Main Navigation-->
     <header>
-    <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- Container wrapper -->
-    <div class="container">
-      <!-- Navbar brand -->
-      <a class="navbar-brand me-2" href="https://mdbgo.com/">
-        <img
-          src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-          height="16"
-          alt="MDB Logo"
-          loading="lazy"
-          style="margin-top: -1px;"
-        />
-      </a>
-  
-      <!-- Toggle button -->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-mdb-toggle="collapse"
-        data-mdb-target="#navbarButtonsExample"
-        aria-controls="navbarButtonsExample"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <i class="fas fa-bars"></i>
-      </button>
-  
-      <!-- Collapsible wrapper -->
-      <div class="collapse navbar-collapse" id="navbarButtonsExample">
-        <!-- Left links -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Dashboard</a>
-          </li>
-        </ul>
-        <!-- Left links -->
-  
-        <div class="d-flex align-items-center">
-          <button type="button" class="btn btn-link px-3 me-2">
-            Login
-          </button>
-          <button type="button" class="btn btn-primary me-3">
-            Sign up for free
-          </button>
-          <a
-            class="btn btn-dark px-3"
-            href="https://github.com/mdbootstrap/mdb-ui-kit"
-            role="button"
-            ><i class="fab fa-github"></i
-          ></a>
-        </div>
-      </div>
-      <!-- Collapsible wrapper -->
-    </div>
-    <!-- Container wrapper -->
-  </nav>
-  <!-- Navbar -->
+    @include('layout.navbar')
   <!-- Carousel wrapper -->
 <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
     <!-- Indicators -->
@@ -156,9 +102,10 @@
 
     <!--Main layout-->
     <main class="mt-5">
-    <div class="container">
+    <div>
         <!--Section: Content-->
         <section>
+          <div class="container">
         <div class="row">
             <div class="col-md-6 gx-5 mb-4">
             <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
@@ -184,6 +131,7 @@
             </p>
             </div>
         </div>
+      </div>
         </section>
         <!--Section: Content-->
 
@@ -191,6 +139,7 @@
 
         <!--Section: Content-->
         <section class="text-center">
+          <div class="container">
         <h4 class="mb-5"><strong>Destinasi Wisata Lembang</strong></h4>
 
         <div class="row">
@@ -268,14 +217,24 @@
   
 
 <!-- Copyright -->
-<div>
-    <div class="text-center p-3" style=" background-color: rgba(0, 0, 0, 0.2); " >
-        <a class="text-dark" href="#"></a>
-    </div>
-</div>
+<footer class="bg-light text-lg-start">
+    
+
+  <hr class="m-0" />
+
+  
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-dark" href="/">Go-Wis.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!--Footer-->
 <!-- Copyright -->
 
-<!--Footer-->
+
 <!-- MDB -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
 </body>
