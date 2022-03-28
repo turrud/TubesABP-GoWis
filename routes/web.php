@@ -16,6 +16,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/home', function () {
-    return view('Home');
+Route::get('/paketWisata', function () {
+    return view('PaketWisata');
+});
+Route::get('/sewaKendaraan', function () {
+    return view('SewaKendaraan');
+});
+Route::get('/berita', function () {
+    return view('Berita');
+});
+Route::get('/login', function () {
+    return view('login.index');
+});
+Route::get('/register', function () {
+    return view('login.register');
 });
