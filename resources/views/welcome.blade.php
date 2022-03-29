@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Go Wiss | Welcome</title>
+    <title>Go Wis | Welcome</title>
 
     <!-- Font Awesome -->
     <link
@@ -21,11 +21,16 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
     rel="stylesheet"
     />
+    <!-- Custom CSS -->
+    {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}"> --}}
+    
 </head>
 <body>
         <!--Main Navigation-->
     <header>
+    @include('layout.navbar')
     <!-- Navbar -->
+
     <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
         <div class="container-fluid">
         <!-- Navbar brand -->
@@ -113,6 +118,7 @@
     <!-- Container wrapper -->
   </nav>
   <!-- Navbar -->
+  
   <!-- Carousel wrapper -->
 <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
     <!-- Indicators -->
@@ -143,7 +149,7 @@
     <div class="carousel-inner">
       <!-- Single item -->
       <div class="carousel-item active">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100" alt="Sunset Over the City"/>
+        <img src="{{ asset('img/slide/cikole.jfif') }}" class="d-block w-100" alt="Sunset Over the City"/>
         <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -152,7 +158,7 @@
   
       <!-- Single item -->
       <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh"/>
+        <img src="{{ asset('img/slide/perahu3.jpg') }}" class="d-block w-100" alt="Canyon at Nigh"/>
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -161,7 +167,7 @@
   
       <!-- Single item -->
       <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+        <img src="{{ asset('img/slide/susu.jpg') }}" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -186,9 +192,10 @@
 
     <!--Main layout-->
     <main class="mt-5">
-    <div class="container">
+    <div>
         <!--Section: Content-->
         <section>
+          <div class="container">
         <div class="row">
             <div class="col-md-6 gx-5 mb-4">
             <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
@@ -214,6 +221,7 @@
             </p>
             </div>
         </div>
+      </div>
         </section>
         <!--Section: Content-->
 
@@ -221,6 +229,7 @@
 
         <!--Section: Content-->
         <section class="text-center">
+          <div class="container">
         <h4 class="mb-5"><strong>Destinasi Wisata Lembang</strong></h4>
 
         <div class="row">
@@ -298,14 +307,8 @@
   
 
 <!-- Copyright -->
-<div>
-    <div class="text-center p-3" style=" background-color: rgba(0, 0, 0, 0.2); " >
-        <a class="text-dark" href="#"></a>
-    </div>
-</div>
-<!-- Copyright -->
 
-<!--Footer-->
+@include('layout.footer')
 <!-- MDB -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
 </body>

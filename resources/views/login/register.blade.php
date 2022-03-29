@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Go Wis | Login</title>
+    <title>Go Wis | Registrasi</title>
 
     <link
     href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
@@ -48,12 +48,15 @@
                         <div class="card-body p-md-5 mx-md-4">
           
                           <div class="text-center">
-                            <h4 class="mt-1 mb-5 pb-1">Please login to your account</h4>
+                            <h4 class="mt-1 mb-5 pb-1">Registrasi</h4>
                           </div>
           
                           <form>
                             
-          
+                            <div class="form-outline mb-4">
+                              <input type="text" id="form2Example11" class="form-control" placeholder="Nama"/>
+                              <label class="form-label" for="form2Example11">Nama</label>
+                            </div>
                             <div class="form-outline mb-4">
                               <input type="email" id="form2Example11" class="form-control" placeholder="email address"/>
                               <label class="form-label" for="form2Example11">Email</label>
@@ -65,13 +68,13 @@
                             </div>
           
                             <div class="text-center pt-1 mb-5 pb-1">
-                              <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log in</button>
+                              <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Register</button>
                             </div>
-          
+
                             <div class="d-flex align-items-center justify-content-center pb-4">
-                              <p class="mb-0 me-2">Don't have an account?</p>
-                              <button type="button" class="btn btn-outline-danger"><a href="/register">Register</a></button>
-                            </div>
+                                <p class="mb-0 me-2">have an account?</p>
+                                <button type="button" class="btn btn-outline-danger"><a href="/login">Login</a></button>
+                              </div>
           
                           </form>
           
