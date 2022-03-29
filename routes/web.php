@@ -31,10 +31,4 @@ Route::get('/login', function () {
 });
 Route::get('/register', function () {
     return view('login.register');
-
-Route::get('/home', function () {
-    return view('Home');
-});
-Route::get('/berita', function () {
-    return view('Berita');
 });
