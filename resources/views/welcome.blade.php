@@ -26,7 +26,6 @@
         <!--Main Navigation-->
     <header>
     <!-- Navbar -->
-<<<<<<< HEAD
     <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
         <div class="container-fluid">
         <!-- Navbar brand -->
@@ -56,7 +55,6 @@
                 <a class="nav-link" href="/berita" target="_blank">Berita</a>
             </li>
             </ul>
-=======
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- Container wrapper -->
     <div class="container">
@@ -107,7 +105,7 @@
             role="button"
             ><i class="fab fa-github"></i
           ></a>
->>>>>>> cbf5c9f980f857a36030b6855df6bbc7f0602dbf
+
         </div>
       </div>
       <!-- Collapsible wrapper -->
