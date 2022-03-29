@@ -29,6 +29,7 @@
         <!--Main Navigation-->
     <header>
     @include('layout.navbar')
+    <!-- Navbar -->
   <!-- Carousel wrapper -->
 <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
     <!-- Indicators -->
