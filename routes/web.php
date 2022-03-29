@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
+
 Route::get('/paketWisata', function () {
     return view('PaketWisata');
 });
@@ -31,11 +31,10 @@ Route::get('/login', function () {
 });
 Route::get('/register', function () {
     return view('login.register');
-=======
+
 Route::get('/home', function () {
     return view('Home');
 });
 Route::get('/berita', function () {
     return view('Berita');
->>>>>>> 46dccf5527e338b2c9b2b202cdee89a0ec40443e
 });
