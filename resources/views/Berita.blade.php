@@ -162,14 +162,7 @@
 
     <hr class="m-0" />
 
-    
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright:
-      <a class="text-dark" href="/">Go-Wis.com</a>
-    </div>
-    <!-- Copyright -->
+    @include('layout.footer')
   </footer>
   <!--Footer-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
