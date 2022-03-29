@@ -43,7 +43,7 @@
     
               <div class="container">
                 <div class="carousel-caption text-start">
-                  <h1>Example headline.</h1>
+                  <h1>Rekomendasi Paket 1</h1>
                   <p>Some representative placeholder content for the first slide of the carousel.</p>
                   <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
                 </div>
@@ -57,7 +57,7 @@
     
               <div class="container">
                 <div class="carousel-caption">
-                  <h1>Another example headline.</h1>
+                  <h1>Rekomendasi Paket 2</h1>
                   <p>Some representative placeholder content for the second slide of the carousel.</p>
                   <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
                 </div>
@@ -71,12 +71,13 @@
     
               <div class="container">
                 <div class="carousel-caption text-end">
-                  <h1>One more for good measure.</h1>
+                  <h1>Rekomendasi Paket 3</h1>
                   <p>Some representative placeholder content for the third slide of this carousel.</p>
                   <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
                 </div>
               </div>
             </div>
+
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -98,78 +99,99 @@
           <!-- Three columns of text below the carousel -->
           <div class="row">
             <div class="col-lg-4">
-              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{{ asset('img/gowis.jpg') }}"
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{{ asset('img/begonia.jpg') }}"
                 role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
                 <title></title>
                 <rect width="100%" height="100%" fill="#77 7" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
-            </img>
+              </img>
     
-              <h2>Heading</h2>
-              <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
-                column.</p>
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-              </svg>
-    
-              <h2>Heading</h2>
-              <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
+              <h2>Paket Wisata Begonia</h2>
+              <p>Harga paket Rp 300.000,00</p>
+              <p>paket 2 hari:
+                <br>Villa (4 tempat tidur), makan pagi, akses masuk wisata</br>
               </p>
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="#">Beli paket &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
+
+
             <div class="col-lg-4">
-              <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{{ asset('img/asia-africa.jpg') }}"
                 role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-              </svg>
+                <title></title>
+                <rect width="100%" height="100%" fill="#77 7" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+              </img>
     
-              <h2>Heading</h2>
-              <p>And lastly this, the third column of representative placeholder content.</p>
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+              <h2>Paket Wisata Asia Africa</h2>
+              <p>Harga paket Rp 500.000,00</p>
+              <p>paket 4 hari:
+                <br>Villa (5 tempat tidur), makan pagi dan siang, akses masuk wisata</br>
+              </p>
+              <p><a class="btn btn-secondary" href="#">Beli paket &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{{ asset('img/ciater.jpg') }}"
+                role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title></title>
+                <rect width="100%" height="100%" fill="#77 7" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+              </img>
+    
+              <h2>Paket Wisata Ciater</h2>
+              <p?>Harga paket Rp.350.000,00</p>
+              <p>paket 2 hari
+                <br>pemandian air hangat 24 jam, Villa(4 tempat tidur), akses masuk wisata</br>
+              </p>
+              <p><a class="btn btn-secondary" href="#">Beli paket &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+
           </div><!-- /.row -->
           <br>
           <br>
           <div class="row">
             <div class="col-lg-4">
-              <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{{ asset('img/cikole.jpg') }}"
                 role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-              </svg>
+                <title></title>
+                <rect width="100%" height="100%" fill="#77 7" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+              </img>
     
-              <h2>Heading</h2>
-              <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
-                column.</p>
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4">
-              <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-                role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-              </svg>
-    
-              <h2>Heading</h2>
-              <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
+              <h2>Paket Wisata Cikole</h2>
+              <p>Harga paket Rp.900.000,00</p>
+              <p>Paket 7 hari
+                <br>Villa (4 tempat tidur), makan pagi, akses masuk tempat wisata</br>
               </p>
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+              <p><a class="btn btn-secondary" href="#">Beli paket &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
+
+            
             <div class="col-lg-4">
-              <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{{ asset('img/kawah-putih.jpg') }}"
                 role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-              </svg>
+                <title></title>
+                <rect width="100%" height="100%" fill="#77 7" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+              </img>
     
-              <h2>Heading</h2>
-              <p>And lastly this, the third column of representative placeholder content.</p>
-              <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+              <h2>Paket Wisata Kawah Putih</h2>
+              <p>Harga paket Rp.350.000,00</p>
+              <p>Paket 2 hari
+                <br>Villa (4 tempat tidur), fotografer</br>
+              </p>
+              <p><a class="btn btn-secondary" href="#">Beli paket &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+              <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="{{ asset('img/lembang-zoo.jpg') }}"
+                role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title></title>
+                <rect width="100%" height="100%" fill="#77 7" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+              </img>
+    
+              <h2>Paket Wisata Lembang Zoo</h2>
+              <p>Harga paket Rp.250.000,00</p>
+              <p>Paket 2 hari
+                <br>Villa (4 tempat tidur), akses masuk wisata</br>
+              </p>
+              <p><a class="btn btn-secondary" href="#">Beli paket &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
           </div><!-- /.row -->
     

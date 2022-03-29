@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Go Wis | Welcome</title>
+    <link class="rounded-circle" rel="icon" href="{{asset('img/gowis.jpg')}}">
 
     <!-- Font Awesome -->
     <link
