@@ -1,3 +1,7 @@
+<link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
+    rel="stylesheet"
+    />
 <link rel="stylesheet" href="{{ asset('css/style1.css') }}">
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">

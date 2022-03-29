@@ -28,21 +28,10 @@
         <div
           class="p-5 text-center bg-image"
           style="
-            background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
-            height: 400px;
-          "
+            background-image: url('{{ asset('img/slide/sss.png') }}');
+            height: 440px;"
         >
-          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-            <div class="d-flex justify-content-center align-items-center h-100">
-              <div class="text-white">
-                <h1 class="mb-3">Heading</h1>
-                <h4 class="mb-3">Subheading</h4>
-                <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-                >Call to action</a
-                >
-              </div>
-            </div>
-          </div>
+          
         </div>
         <!-- Background image -->
       </header>
@@ -52,24 +41,24 @@
         <br>
         <div class="container">
             <section class="text-center">
-                <h4 class="mb-5"><strong>Latest posts</strong></h4>
+                <h4 class="mb-5"><strong>Sewa Mobil & Motor</strong></h4>
         
                 <div class="row" >
                   <div class="col-lg-4 col-md-12 mb-4" style="width: 20rem">
                     <div class="card">
                       <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" class="img-fluid" />
-                        <a href="#!">
+                        <img src="{{ asset('img/mobil/avanza.webp') }}" class="img-fluid" />
+                        <a href="/form">
                           <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                         </a>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title">Post title</h5>
+                        <h5 class="card-title">Toyota Avanza</h5>
                         <p class="card-text">
                           Some quick example text to build on the card title and make up the bulk of the
                           card's content.
                         </p>
-                        <a href="#!" class="btn btn-primary">Read</a>
+                        <a href="/form" class="btn btn-primary">Sewa</a>
                       </div>
                     </div>
                   </div>
@@ -77,54 +66,54 @@
                   <div class="col-lg-4 col-md-6 mb-4" style="width: 20rem">
                     <div class="card">
                       <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
-                        <a href="#!">
+                        <img src="{{ asset('img/mobil/brio.webp') }}" class="img-fluid" />
+                        <a href="/form">
                           <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                         </a>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title">Post title</h5>
+                        <h5 class="card-title">Honda Brio</h5>
                         <p class="card-text">
                           Some quick example text to build on the card title and make up the bulk of the
                           card's content.
                         </p>
-                        <a href="#!" class="btn btn-primary">Read</a>
+                        <a href="/form" class="btn btn-primary">Sewa</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-6 mb-4" style="width: 20rem">
                     <div class="card">
                       <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
-                        <a href="#!">
+                        <img src="{{ asset('img/mobil/pajeroo.webp') }}" class="img-fluid" />
+                        <a href="/form">
                           <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                         </a>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title">Post title</h5>
+                        <h5 class="card-title">Pajero Sport</h5>
                         <p class="card-text">
                           Some quick example text to build on the card title and make up the bulk of the
                           card's content.
                         </p>
-                        <a href="#!" class="btn btn-primary">Read</a>
+                        <a href="/form" class="btn btn-primary">Sewa</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-6 mb-4" style="width: 20rem">
                     <div class="card">
                       <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
-                        <a href="#!">
+                        <img src="{{ asset('img/mobil/inova.webp') }}" class="img-fluid" />
+                        <a href="/form">
                           <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                         </a>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title">Post title</h5>
+                        <h5 class="card-title">Toyota Inova</h5>
                         <p class="card-text">
                           Some quick example text to build on the card title and make up the bulk of the
                           card's content.
                         </p>
-                        <a href="#!" class="btn btn-primary">Read</a>
+                        <a href="/form" class="btn btn-primary">Sewa</a>
                       </div>
                     </div>
                   </div>
@@ -134,18 +123,18 @@
                   <div class="col-lg-4 col-md-12 mb-4" style="width: 20rem">
                     <div class="card">
                       <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/002.jpg" class="img-fluid" />
-                        <a href="#!">
+                        <img src="{{ asset('img/motor/klx.webp') }}" class="img-fluid" />
+                        <a href="/form">
                           <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                         </a>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title">Post title</h5>
+                        <h5 class="card-title">Kawasaki KLX</h5>
                         <p class="card-text">
                           Some quick example text to build on the card title and make up the bulk of the
                           card's content.
                         </p>
-                        <a href="#!" class="btn btn-primary">Read</a>
+                        <a href="/form" class="btn btn-primary">Sewa</a>
                       </div>
                     </div>
                   </div>
@@ -153,36 +142,36 @@
                   <div class="col-lg-4 col-md-6 mb-4" style="width: 20rem">
                     <div class="card">
                       <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/022.jpg" class="img-fluid" />
-                        <a href="#!">
+                        <img src="{{ asset('img/motor/nmax.webp') }}" class="img-fluid" />
+                        <a href="/form">
                           <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                         </a>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title">Post title</h5>
+                        <h5 class="card-title">Yamaha Nmax</h5>
                         <p class="card-text">
                           Some quick example text to build on the card title and make up the bulk of the
                           card's content.
                         </p>
-                        <a href="#!" class="btn btn-primary">Read</a>
+                        <a href="/form" class="btn btn-primary">Sewa</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-6 mb-4" style="width: 20rem">
                     <div class="card">
                       <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/022.jpg" class="img-fluid" />
-                        <a href="#!">
+                        <img src="{{ asset('img/motor/scoopy.webp') }}" class="img-fluid" />
+                        <a href="/form">
                           <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                         </a>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title">Post title</h5>
+                        <h5 class="card-title">Honda Scoopy</h5>
                         <p class="card-text">
                           Some quick example text to build on the card title and make up the bulk of the
                           card's content.
                         </p>
-                        <a href="#!" class="btn btn-primary">Read</a>
+                        <a href="/form" class="btn btn-primary">Sewa</a>
                       </div>
                     </div>
                   </div>
@@ -190,18 +179,18 @@
                   <div class="col-lg-4 col-md-6 mb-4" style="width: 20rem">
                     <div class="card">
                       <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                        <img src="https://mdbootstrap.com/img/new/standard/nature/035.jpg" class="img-fluid" />
-                        <a href="#!">
+                        <img src="{{ asset('img/motor/supra.webp') }}" class="img-fluid" />
+                        <a href="/form">
                           <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                         </a>
                       </div>
                       <div class="card-body">
-                        <h5 class="card-title">Post title</h5>
+                        <h5 class="card-title">Honda Supra X</h5>
                         <p class="card-text">
                           Some quick example text to build on the card title and make up the bulk of the
                           card's content.
                         </p>
-                        <a href="#!" class="btn btn-primary">Read</a>
+                        <a href="/form" class="btn btn-primary">Sewa</a>
                       </div>
                     </div>
                   </div>
