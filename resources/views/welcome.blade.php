@@ -60,7 +60,7 @@
     <div class="carousel-inner">
       <!-- Single item -->
       <div class="carousel-item active">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(15).webp" class="d-block w-100" alt="Sunset Over the City"/>
+        <img src="{{ asset('img/slide/cikole.jfif') }}" class="d-block w-100" alt="Sunset Over the City"/>
         <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -69,7 +69,7 @@
   
       <!-- Single item -->
       <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh"/>
+        <img src="{{ asset('img/slide/perahu3.jpg') }}" class="d-block w-100" alt="Canyon at Nigh"/>
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -78,7 +78,7 @@
   
       <!-- Single item -->
       <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
+        <img src="{{ asset('img/slide/susu.jpg') }}" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
